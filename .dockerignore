@@ -1,0 +1,40 @@
+// .dockerignore
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# IDE files
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Data directory
+data/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+CHANGELOG.md
+LICENSE
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Logs
+*.log
+php_errors.log
+
+# Cache
+*.cache

@@ -1,0 +1,9 @@
+services:
+  theater-analytics-php:
+    build: .
+    volumes:
+      - ./data:/app/data
+    stdin_open: true
+    tty: true
+    environment:
+      - DB_PATH=/app/data/movies.db

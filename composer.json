@@ -1,0 +1,7 @@
+{
+    "name": "theater-analytics-php",
+    "description": "Movie theater analytics PHP implementation",
+    "require": {
+        "php": ">=8.2"
+    }
+}
